@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sandbox"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\engine\;CMake Files\src\sandbox\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/douidik/dev/GameEngine"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/douidik/dev/GameEngine"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/douidik/dev/GameEngine"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="engine">
+				<Option output="/home/douidik/dev/GameEngine/src/engine/libengine.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/douidik/dev/GameEngine/src/engine"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/../include/include"/>
+					<Add directory="/home/douidik/dev/GameEngine/src/engine"/>
+					<Add directory="/home/douidik/dev/GameEngine/vendor"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/src/engine/Makefile&quot;  VERBOSE=1 engine"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/src/engine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/src/engine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/src/engine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="engine/fast">
+				<Option output="/home/douidik/dev/GameEngine/src/engine/libengine.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/douidik/dev/GameEngine/src/engine"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/../include/include"/>
+					<Add directory="/home/douidik/dev/GameEngine/src/engine"/>
+					<Add directory="/home/douidik/dev/GameEngine/vendor"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/src/engine/Makefile&quot;  VERBOSE=1 engine/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/src/engine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/src/engine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/src/engine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sandbox">
+				<Option output="/home/douidik/dev/GameEngine/bin/sandbox" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/douidik/dev/GameEngine/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/douidik/dev/GameEngine/src/engine"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/src/sandbox/Makefile&quot;  VERBOSE=1 sandbox"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/src/sandbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/src/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/src/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sandbox/fast">
+				<Option output="/home/douidik/dev/GameEngine/bin/sandbox" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/douidik/dev/GameEngine/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/douidik/dev/GameEngine/src/engine"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/src/sandbox/Makefile&quot;  VERBOSE=1 sandbox/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/src/sandbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/src/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/douidik/dev/GameEngine/src/sandbox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/CMakeFiles/engine.dir/cmake_pch.hxx">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/CMakeFiles/engine.dir/cmake_pch.hxx.cxx">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Component/Camera/CameraComponent.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Component/Camera/CameraComponent.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Component/Camera/FreeCameraComponent.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Component/Camera/FreeCameraComponent.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Component/Mesh/MeshComponent.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Component/Mesh/SkeletalMeshComponent.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Component/Mesh/SkeletalMeshComponent.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Component/Mesh/StaticMeshComponent.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Component/Mesh/StaticMeshComponent.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Context/Window.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Context/Window.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Core.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/EnginePCH.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Animation/Animator.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Animation/Animator.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Animation/Clip.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Animation/Clip.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Animation/Joint.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Animation/Joint.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Animation/KeyFrame.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Animation/KeyFrame.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Buffer/ElementBuffer.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Buffer/ElementBuffer.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Buffer/VertexBuffer.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Buffer/VertexBuffer.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Mesh/MeshData.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Mesh/MeshImporter.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Mesh/MeshImporter.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Mesh/SkeletalMeshImporter.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Mesh/SkeletalMeshImporter.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Mesh/StaticMeshImporter.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Mesh/StaticMeshImporter.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Renderer.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Renderer.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Shader.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Shader.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Texture.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/Texture.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/VertexArray.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Graphics/VertexArray.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Primitives/Component.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Primitives/Component.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Primitives/Drawable.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Primitives/GameObject.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Primitives/Transform.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Scene/Scene.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Scene/Scene.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Util/Input.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Util/Math.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/Util/Util.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/sandbox/CMakeFiles/sandbox.dir/cmake_pch.hxx">
+			<Option target="sandbox"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/sandbox/CMakeFiles/sandbox.dir/cmake_pch.hxx.cxx">
+			<Option target="sandbox"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/sandbox/main.cpp">
+			<Option target="sandbox"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\engine\"/>
+		</Unit>
+		<Unit filename="/home/douidik/dev/GameEngine/src/sandbox/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\sandbox\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
